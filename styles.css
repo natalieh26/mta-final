@@ -1,0 +1,84 @@
+html, {
+    /* Sets default font-size to 16px, ensuring 1em = 16px; */
+    font-size: 30px;
+    text-align: center;
+    image-orientation: center;
+}
+
+h1, {
+    font-family: 'Nanum Gothic', sans-serif;
+    text-align: center;
+    font-size: 16px;
+    color: #red;
+}
+
+p {
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 16px;
+    color: #blue;
+    text-align: justify;
+}
+
+body {
+    background-color: #F3F3F3;
+    color: #00134A;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.container {
+    width: 100%;
+    padding: 0px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.sources {
+    margin-top: 30px;
+    align: left;
+    font-size: .5em;
+    font-family:
+        font-style: italic;
+    font-family: 'Nanum Gothic', sans-serif;
+    padding: 5px;
+}
+
+/*********************************************************************
+  YOUR TABLET/DESKTOP STYLES GO HERE
+*********************************************************************/
+@media(min-width: 681px) {
+    /* Any adjustments for tablets and larger go here.
+    Note these styles will be applied to anything 681px or larger -- so tablet AND desktop */
+}
+
+/*********************************************************************
+  YOUR DESKTOP-ONLY STYLES GO HERE
+*********************************************************************/
+@media(min-width: 729px) {
+    /* Any adjustments for desktop and larger go here.
+    Note these styles will be applied to anything 729px or larger -- so desktop */
+}
+
+d larger go here. Note these styles will be applied to anything 681px or larger -- so tablet AND desktop */
+}
+
+/*********************************************************************
+  YOUR DESKTOP-ONLY STYLES GO HERE
+*********************************************************************/
+@media(min-width: 729px) {
+    /* Any adjustments for desktop and larger go here.
+    Note these styles will be applied to anything 729px or larger -- so desktop */
+}
+
+img {
+    width: 50%;
+}
+
+figcaption {
+    text-align: center;
+}
